@@ -1,0 +1,20 @@
+# DieleXformer version 1.1.0
+IPython==8.30.0
+cmasher==1.7.2
+dcor==0.6
+factor_analyzer==0.5.0
+hyperopt==0.2.7
+imageio==2.37.0
+ipywidgets==8.1.5
+keras==3.6.0
+matminer==0.9.2
+matplotlib==3.8.0
+moviepy==2.1.2
+numpy==1.26.4
+pandas==2.2.3
+pymatgen==2024.4.13
+scipy==1.11.4
+seaborn==0.13.2
+shap==0.45.1
+tensorflow==2.18.0
+torch==2.1.1

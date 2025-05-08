@@ -1,0 +1,43 @@
+{
+  "RF": {
+    "boundaries": {
+      "n_estimators": [10, 100],
+      "max_depth": [3, 10],
+      "min_samples_split": [2, 20],
+      "min_samples_leaf": [1, 10]
+    },
+    "irrelevant_params": [],
+    "positive_params": ["n_estimators", "max_depth"],
+    "negative_params": ["min_samples_split", "min_samples_leaf"]
+  },
+  "MLP": {
+    "boundaries": {
+      "layers": [1, 5],
+      "units": [10, 100],
+      "activation": [0, 1],
+      "epochs": [30, 50]
+    },
+    "irrelevant_params": ["activation", "epochs"],
+    "positive_params": ["layers", "units"],
+    "negative_params": []
+  },
+  "KNN": {
+    "boundaries": {
+      "n_neighbors": [1, 20],
+      "leaf_size": [10, 50],
+      "p": [1, 2]
+    },
+    "irrelevant_params": [],
+    "positive_params": [],
+    "negative_params": ["n_neighbors", "leaf_size", "p"]
+  },
+  "SVM": {
+    "boundaries": {
+      "C": [0.1, 5],
+      "gamma": [0.2, 1.0]
+    },
+    "irrelevant_params": [],
+    "positive_params": ["C", "gamma"],
+    "negative_params": []
+  }
+}

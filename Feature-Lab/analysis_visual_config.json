@@ -1,0 +1,50 @@
+{
+  "factor_analysis": {
+    "font": {
+      "family": "serif",
+      "size": 14,
+      "serif": "Times New Roman"
+    },
+    "title": {
+      "size": 25,
+      "location": "left",
+      "pad": 30,
+      "fontweight": "bold"
+    },
+    "colors": {
+      "cmap": "eclipse",
+      "colors": ["#2F4858", "#99AA74", "white"]
+    },
+    "color_bar": {
+      "position": "right",
+      "size": "5%",
+      "pad": 0.1
+    },
+    "circle_size_factor": 0.45,
+    "circle_color_scale": 1.5
+  },
+  "pca_analysis": {
+    "font": {
+      "family": "serif",
+      "size": 14,
+      "serif": "Times New Roman"
+    },
+    "title": {
+      "size": 25,
+      "location": "left",
+      "pad": 30,
+      "fontweight": "bold"
+    },
+    "colors": {
+      "cmap": "sapphire",
+      "colors": ["#000000", "#181822", "#313144", "#4a4a67", "#636983", "#7c8c9c", "#95aeb5", "#b2cece", "#d9e6e6", "#ffffff"]
+    },
+    "color_bar": {
+      "position": "right",
+      "size": "5%",
+      "pad": 0.1
+    },
+    "circle_size_factor": 0.45,
+    "circle_color_scale": 1.5
+  }
+}
