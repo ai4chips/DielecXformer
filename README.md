@@ -279,7 +279,7 @@ You can easily visualize Bayesian hyperparameter optimization results, model per
 
 
 If you use this repository, please cite:  
-1. Zikang Guo, Shenghong Ju. *Project Title*. GitHub repository: [https://github.com/ai4chips/DielecXformer.git](https://github.com/ai4chips/DielecXformer.git), 2025. Manuscript in preparation.
+1. Zikang Guo, Shenghong Ju. *DielecXformer*. GitHub repository: [https://github.com/ai4chips/DielecXformer.git](https://github.com/ai4chips/DielecXformer.git), 2025. Manuscript in preparation.
 
 ## **License**  
 
