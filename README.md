@@ -2,14 +2,13 @@
 
 # **DielecXformer**
 
----
 
 This package provides a general framework for crystal property prediction. **DielecXformer** (Transformer for dielectric) demonstrates excellent predictive performance for dielectric constant targets in crystals. It is a Transformer variant specifically designed for small- to medium-sized tabular datasets, aiming to overcome the performance bottlenecks of traditional deep learning architectures on such data. This is particularly significant given that 76% of datasets on the popular benchmark site [openml.org](https://www.openml.org) contain fewer than 10,000 rows.
 
 DielecXformer leverages the Tree-structured Parzen Estimator (TPE) algorithm and integrates multiple prediction heads (MLP, KNN, ResNet, SVM, and RF) to perform hyperparameter blending optimization for TVE and its downstream models. Through both linear/nonlinear correlation analysis and feature importance evaluation, it provides deep insights into the mechanisms and optimization effects of TVE.
 ## **Getting Started**
 
----
+
 
 ### Installation
 
@@ -80,7 +79,7 @@ Please note that the original Java version of Magpie is **no longer maintained**
 
 You can use `./PI-Encoding/MagpiePIEncoding.py` to encode materials. For detailed procedures, refer to the `EncodingExample.ipynb` file in the same directory.
 
----
+
 
 ## **Run the Model**
 
@@ -239,7 +238,7 @@ shap_calc.run()
 
 ## **Architecture**
 
----
+
 
 ### Overall Framework
 Workflow of `DielecXformer` for predicting dielectric properties of perovskite, spinel, and binary metal oxides. 
@@ -257,7 +256,7 @@ Using SHAP (SHapley Additive exPlanations) and Permutation Importance (PERM), we
 
 ## **Visualization**
 
----
+
 
 You can easily visualize Bayesian hyperparameter optimization results, model performance evaluation results, feature importance analysis, and comparisons of linear/non-linear correlations between original/synthetic descriptors and dielectric constant. The related Jupyter notebook files can be found at:
 
@@ -278,11 +277,11 @@ You can easily visualize Bayesian hyperparameter optimization results, model per
 
 ## **Citation**  
 
----  
+
 If you use this repository, please cite:  
 1. Zikang Guo, Shenghong Ju. *Project Title*. GitHub repository: [https://github.com/ai4chips/DielecXformer.git](https://github.com/ai4chips/DielecXformer.git), 2025. Manuscript in preparation.
 
 ## **License**  
 
----  
+
 This project is distributed under the terms of the MIT License. For full license details, please refer to the LICENSE.md file provided in this repository.
