@@ -706,6 +706,7 @@ class ModelPlotter:
                 transform=ax.transAxes)
 
         # Layout adjustment
+        plt.legend(loc='lower right')
         plt.tight_layout()
         plt.close()
 
@@ -726,7 +727,7 @@ class ModelPlotter:
             models.append(temp_filename)  # Save the temporary filename for later
 
         # Now, create the combined 4x3 grid for displaying the plots
-        fig, axs = plt.subplots(4, 3, figsize=(21, 28))
+        fig, axs = plt.subplots(4, 3, figsize=(12, 16))
         axs = axs.flatten()
 
         # Add the first 9 models to the 3x3 grid
